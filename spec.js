@@ -14,10 +14,14 @@ describe('Mesaforte-ui Demo App', function(){
 
 
 		//browser.wait(element(by.css(".topnavbar")).isPresent());
+		//Filter Results
 		expect(element(by.model('beanCtrl.gridOptions.quickFilterText')).isPresent()).toBe(true);
 		element(by.model('beanCtrl.gridOptions.quickFilterText')).sendKeys('dent');
 
-
+		//Search
+	    	expect(element(by.model('beanCtrl.pages.category')).isPresent()).toBe(true);
+	   	element(by.model('beanCtrl.pages.category')).sendKeys('built-in');
+	   	element(by.buttonText('Search')).click();
 
 
 
