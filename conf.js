@@ -4,7 +4,7 @@ exports.config = {
   framework: 'jasmine2',
   seleniumAddress: 'http://localhost:4444/wd/hub',
   allScriptsTimeout: 60000,
-  specs: ['spec.js'],
+  specs: ['spec.js', 'edit-spec.js'],
   plugins: [{
         package: 'jasmine2-protractor-utils',
         disableHTMLReport: false,
