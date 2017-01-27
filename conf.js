@@ -24,7 +24,5 @@ exports.config = {
     //   browser.manage().timeouts().setScriptTimeout(60000);
     // }
       //framework: 'jasmine2',
-
-     
-     
+  
  }
