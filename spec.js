@@ -8,7 +8,6 @@ describe('Mesaforte-ui Demo App', function(){
 
   	});
 
-
 	it('Teting a Add Button', function(){
 		//browser.ignoreSynchronization = false;
 

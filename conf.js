@@ -23,6 +23,5 @@ exports.config = {
     // onPrepare: function(){
     //   browser.manage().timeouts().setScriptTimeout(60000);
     // }
-      //framework: 'jasmine2',
-  
+      //framework: 'jasmine2',  
  }

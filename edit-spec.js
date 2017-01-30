@@ -26,6 +26,5 @@ describe('Mesaforte-ui Demo App', function(){
 	    expect(element(by.model('rulesset.editedBean.descriptions_lang[rulesset.currentLang]')).isPresent()).toBe(true);
 	    element(by.model('rulesset.editedBean.descriptions_lang[rulesset.currentLang]')).sendKeys('something');
 	    */
-	    
   	});
 });
